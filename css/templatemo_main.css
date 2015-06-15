@@ -29,13 +29,13 @@ body, html { overflow-x: hidden; }
 body {
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Libre Baskerville', sans-serif;
     font-style: normal; 
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, li { font-family: 'Open Sans', sans-serif; }
+h1, h2, h3, h4, h5, h6, span, p, li { font-family: 'Libre Baskerville', sans-serif; }
 h3 { color: #FF6; padding: 10px 0 0 0; font-size: 16px; font-weight: bold; }
 
 a { color: #FF6; }
@@ -104,21 +104,21 @@ img {  vertical-align: middle; }
 .nav>li:last-child { margin-right: 0; }
 .nav i {
     display: block;
-    padding: 15px 0 15px 0;
+    padding: 0px 0 0px 0;
 }
 .nav .fa { font-size: 2em; }
 .navbar-default .navbar-nav > li > a {
     color: white;
     background-color: rgba(0,0,0,0.5);
-    width: 120px;
-    height: 120px;
+    width: 199px;
+    height: 82px;
 }
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: yellow;
+    color: gold;
     background-color: rgba(0,0,0,0.5);
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    color: yellow;
+    color: gold;
     background-color: rgba(0,0,0,0.5);
 }
 .site-name {
