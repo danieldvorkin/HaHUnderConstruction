@@ -165,6 +165,18 @@ img {  vertical-align: middle; }
 .tooltip-inner {
     font-size:15px !important;
 }
+.item img {
+    height:600px;width:600px;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
 .templatemo-content section {
     font-family: 'Poiret One', cursive;
