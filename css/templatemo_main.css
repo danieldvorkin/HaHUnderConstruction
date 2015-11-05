@@ -29,13 +29,14 @@ body, html { overflow-x: hidden; }
 body {
     font-size: 1em;
     line-height: 1.4;
-    font-family: 'Libre Baskerville', sans-serif;
+    font-family: 'Poiret One', cursive;
     font-style: normal; 
     -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
     -webkit-text-size-adjust: 100%;
 }
 
-h1, h2, h3, h4, h5, h6, span, p, li { font-family: 'Libre Baskerville', sans-serif; }
+span, p, li { font-family: 'Poiret One', cursive; }
+h1, h2, h3, h4, h5, h6 { font-family: 'EB Garamond', serif; }
 h3 { color: #FF6; padding: 10px 0 0 0; font-size: 16px; font-weight: bold; }
 
 a { color: #FF6; }
@@ -94,6 +95,7 @@ img {  vertical-align: middle; }
 .navbar {
     border-radius: 0;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 1.6em;
 }
 .navbar-default {
@@ -152,8 +154,20 @@ img {  vertical-align: middle; }
     overflow: hidden;
 }
 
+.about-us p {
+    font-size: 17px !important;
+}
+
+.service-list li {
+    font-size: 19px !important;
+}
+
+.tooltip-inner {
+    font-size:15px !important;
+}
+
 .templatemo-content section {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
     position: relative; 
     overflow: hidden;
     top: 0;
@@ -164,11 +178,13 @@ img {  vertical-align: middle; }
 .templatemo-content-wrapper { overflow: hidden; }
 .templatemo-content h2 {
     color: white;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
 	margin-bottom: 15px;
 }
 .templatemo-content p, .templatemo-content li {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poiret One', cursive;
+    font-weight: bold;
     color: white;
     font-size: 14px;
 	padding: 5px 0px;
