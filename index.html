@@ -58,6 +58,7 @@
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 templatemo-content-wrapper">
             <div class="templatemo-content">   
+              <!-- /.templatemo-page1-text -->
               <section id="templatemo-page1-text" class="active">
                 <div class="col-sm-12 col-md-12">
                   <h2>Image Gallery</h2>
@@ -132,15 +133,14 @@
                 </div>
               </section>
 
-              <!-- /.templatemo-page1-text --> 
+              <!-- /.templatemo-page2-text --> 
               <section id="templatemo-page2-text" class="inactive">
                 <div class="col-sm-12 col-md-12">
                   <h2>Videos</h2>
                   <p>Fusce cursus gravida justo, sit amet facilisis libero auctor non. Nullam bibendum, quam ac dapibus congue, ligula lectus tempor erat, sed posuere purus massa vel leo. Donec dignissim in nibh sed consectetur.</p>         
                   <h3>The new Cayenne</h3>
                   <p>Suspendisse sodales, velit id interdum porta, quam mauris semper eros, ac iaculis velit mi at magna. Suspendisse id est sed leo placerat aliquet.</p>
-                  <div class="videoWrapper">
-                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                       <!-- Indicators -->
                       <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -154,9 +154,9 @@
                       <!-- Wrapper for slides -->
                       <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                          <img src="images/headshot.jpg" style="height:500px;">
+                          <iframe width="560" height="315" src="http://www.youtube.com/embed/XptFDgYkgHE?list=UUlj0L8WZrVydk5xKOscI6-A" allowfullscreen></iframe>
                           <div class="carousel-caption">
-                            HeadShot
+                            YouTube
                           </div>
                         </div>
                         <div class="item">
@@ -193,11 +193,13 @@
                         <span class="sr-only">Next</span>
                       </a>
                     </div>
-                  </div>
+                  <!-- <div class="videoWrapper">
+                    
+                  </div> -->
                   <h3>The new S 63 AMG Coupé</h3>
                   <p>Nullam tempus placerat suscipit. Vestibulum ut aliquam nulla. Quisque ac velit gravida, mattis metus vitae, tempus elit.</p>
                   <div class="videoWrapper">
-                    <iframe width="560" height="315" src="http://www.youtube.com/embed/XptFDgYkgHE?list=UUlj0L8WZrVydk5xKOscI6-A" allowfullscreen></iframe>
+                    
                   </div>
                   <h3>BMW i3</h3>
                   <p>Fusce cursus gravida justo, sit amet facilisis libero auctor non. Nullam bibendum, quam ac dapibus congue, ligula lectus tempor erat, sed posuere purus massa vel leo.</p>
@@ -207,7 +209,7 @@
                 </div>
               </section>
 
-              <!-- /.templatemo-page2-text -->                 
+              <!-- /.templatemo-page3-text -->                  
               <section id="templatemo-page3-text" class="inactive">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <h2>Welcome to our Packages Page!</h2>
@@ -227,118 +229,144 @@
                     <i class="fa fa-circle"></i>
                   </p>
 
-                  <h2>Services/Point Values:</h2>
-                  <ul>
-                    <li>Attendance at Appointments (4 points)</li>
-                    <li>Event Design & Theme Development (10 points)</li>
-                    <li>Set Up (1 point)</li>
-                    <li>Tear Down (1 point)</li>
-                    <li>Vendor Selection (2 points)</li>
-                    <li>Day-of Co-ordination at Event (4 points)</li>
-                    <li>Budget Creation & Maintenance (2 points)</li>
-                    <li>Managing Guest List & RSVP’s (2 points)</li>
-                    <li>Itinerary Creation & Vendor Correspondence (1 point)</li>
-                    <li>Venue Selection (3 points)</li>
-                    <li>Wedding Attire Selection Assistance (3 points)</li>
-                    <li>Centerpiece Creation & Set-Up (6 points)</li>
-                    <li>Décor Creation & Set Up (6 points)</li>
-                    <li>Transportation Co-ordination (3 points)</li>
-                    <li>Dance Lessons (up to 5 lessons) (5 points)</li>
-                    <li>Honeymoon Co-ordination (5 points)</li>
-                    <li>Bridal Shower Co-ordination & Decor (15 points)</li>
-                    <li>Bachelor/Bachelorette Party Co-ordination (10 points)</li>
-                    <li>Engagement Party Co-ordination & Decor (15 points)</li>
-                    <li>DIY services (Variable-Please Contact)</li>
-                  </ul>
+                  <div class="col-lg-6">
+                    <h2>Services/Point Values:</h2>
+                    <ul>
+                      <li style="list-style:none;">
+                        <input type="checkbox" value="4"/> Attendance at Appointments (4 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="10"/> Event Design & Theme Development (10 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="1"/> Set Up (1 point)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="1"/> Tear Down (1 point)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="2"/> Vendor Selection (2 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="4"/> Day-of Co-ordination at Event (4 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="2"/> Budget Creation & Maintenance (2 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="2"/> Managing Guest List & RSVP’s (2 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="1"/> Itinerary Creation & Vendor Correspondence (1 point)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="3"/> Venue Selection (3 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="3"/> Wedding Attire Selection Assistance (3 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="6"/> Centerpiece Creation & Set-Up (6 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="6"/> Décor Creation & Set Up (6 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="3"/> Transportation Co-ordination (3 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="5"/> Dance Lessons (up to 5 lessons) (5 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="5"/> Honeymoon Co-ordination (5 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="15"/> Bridal Shower Co-ordination & Decor (15 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="10"/> Bachelor/Bachelorette Party Co-ordination (10 points)
+                        </li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="15"/> Engagement Party Co-ordination & Decor (15 points)</li>
+                      <li  style="list-style:none;">
+                        <input type="checkbox" value="0"/> DIY services (Variable-Please Contact)</li>
+                    </ul>
+                  </div>
 
-                  <h2>BUILD YOUR PACKAGE!</h2>
-                  <p>Pick and choose the services you need to see which package would best suit your needs. We will review the details and get back to you within 2-5 business days. </p>
-                  <p>Is there a service you require but don’t see? Let us know in the comment box below! </p>
-                  <p>All package prices are subject to size of the wedding & your guest count.</p>
+                  <div class="col-lg-6">
+                    <h2>BUILD YOUR PACKAGE!</h2>
+                    <p>Pick and choose the services you need to see which package would best suit your needs. We will review the details and get back to you within 2-5 business days. </p>
+
+                    <button class="btn btn-info" id="calc">Calculate Points</button>
+                    <p style="color:white;"><span id="demo" style="font-size:65px;"></span> Points</p>
+
+                    <h3 id="pkg-info" style="color:white;font-style:italic;"></h3>
+                    
+                    <p>Is there a service you require but don’t see? Let us know in the comment box below! </p>
+                    <p>All package prices are subject to size of the wedding & your guest count.</p>
+                  </div>
+                  
                 </div>
               </section>
 
-        <!-- /.templatemo-page3-text --> 
-        <section id="templatemo-page4-text" class="inactive">
-        	<h2 class="text-center">About Us</h2>
-          <div class="row">
-            <div class="col-lg-4"></div>
-            <div class="col-lg-4">
-              <img src="images/headshot.jpg" height="300px" style="margin-left: 15%;"/>
-            </div>
-            <div class="col-lg-4"></div>
-          </div>
-            <div class="col-sm-12 col-md-12">
-              <h3>Background</h3>
-              <p>I spent my childhood ballroom dancing in spectacular venues, my teenage years singing opera in breathtaking halls and attending friend’s weddings, engagement parties and other wonderful events. I was so captivated by the splendor I came to know, that every part of me craved for it to continue. When I realized that I can bring that beauty and passion to others-Hand in Hand Weddings & Events was born.</p>
-
-              <p>It became simple -I have a passion for order and for creating beautiful events. Helping others transform some of their lives’ biggest moments from a dream to a reality became the obvious career path. Since then my team and I commit ourselves to making our clients’ special days our number one priority.</p>
-            </div>
-            <div class="col-sm-12 col-md-12">
-                <h3>Company Mission</h3>
-                <p>Our main initiative is to make sure that you and your needs are what drive this process. YOU are what make your event unique, creative and special, and we are here to make sure we showcase that in every way.</p>
-
-                <p>We are here to hold your hand throughout the days and months leading up to, and including the day you embark on a journey of a life together going hand in hand with your soul mate.  No matter how big or small your event, we are here to make every detail of your event unforgettable and stress free. From the initial meeting to the big day we are here for you throughout every step of the way! </p>
-            </div>
-            <div class="col-sm-12 col-md-12">
-                <h3>Initiatives</h3>
-                <p>Although weddings are a huge part of what we do, we are proud to have been a part of other events that hold just as much importance as your wedding day. We’ve had the honour of planning engagement parties, baby showers, birthday parties, corporate events and much more! So please, don’t hesitate to contact us with any inquiries regarding your next event.</p>
-            </div>
-          </section>
-
-        <!-- /.templatemo-page4-text --> 
-          <section id="templatemo-page5-text" class="inactive">
-            <div class="col-sm-12 col-md-12">
-              <div class="row">
-                <div class="col-sm-12 col-md-12">
-                  <h2>Contact me below</h2>
+              <!-- /.templatemo-page4-text -->       
+              <section id="templatemo-page4-text" class="inactive">
+              	<h2 class="text-center">About Us</h2>
+                <div class="col-lg-4">
+                  <img src="images/headshot.jpg" height="250px" style="margin-left: 15%;"/>
+                  <h3 style="margin-left: 30%;">Dina Shikhman</h3>
                 </div>
-                <div class="clearfix"></div>
-              </div>
-              <div class="row">
-                <div class="col-sm-12 col-md-12">
-                <!-- Change the width and height values to suit you best -->
-<div class="typeform-widget" data-url="https://daniel196.typeform.com/to/Wnh8HV" data-text="Hand In Hand W&amp;E" style="width:100%;height:500px;"></div>
-<script>(function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()</script>
-    <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_Wnh8HV&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
+                <div class="col-lg-8">
+                  <h3>Background</h3>
+                  <p>I spent my childhood ballroom dancing in spectacular venues, my teenage years singing opera in breathtaking halls and attending friend’s weddings, engagement parties and other wonderful events. I was so captivated by the splendor I came to know, that every part of me craved for it to continue. When I realized that I can bring that beauty and passion to others-Hand in Hand Weddings & Events was born.</p>
 
+                  <p>It became simple -I have a passion for order and for creating beautiful events. Helping others transform some of their lives’ biggest moments from a dream to a reality became the obvious career path. Since then my team and I commit ourselves to making our client's special days our number one priority.</p>
                 </div>
-              </div>
-              <div class="clearfix"></div>
-            </div>
-          </div>
-        </section><!-- /.templatemo-page5-text --> 
-      </div><!-- /.templatemo-content -->  
-    </div><!-- /.templatemo-content-wrapper --> 
-  </div><!-- /.row --> 
+                <div class="col-sm-12 col-md-12">
+                    <h3>Company Mission</h3>
+                    <p>Our main initiative is to make sure that you and your needs are what drive this process. YOU are what make your event unique, creative and special, and we are here to make sure we showcase that in every way.</p>
 
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
-      <div class="footer-wrapper">
-        <p class="social-icons">
-          <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
-          <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
-          <a href="https://google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
-          <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
-          <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
-        </p>
-        <p id="tm-copyright">
-          Copyright &copy; 2015 Hand in Hand Weddings & Events
-			  </p>
-      </div>                    
-    </div><!-- /.footer --> 
-  </div>               
-</div> <!-- /.container -->
-</div><!-- /#main-wrapper -->
+                    <p>We are here to hold your hand throughout the days and months leading up to, and including the day you embark on a journey of a life together going hand in hand with your soul mate.  No matter how big or small your event, we are here to make every detail of your event unforgettable and stress free. From the initial meeting to the big day we are here for you throughout every step of the way! </p>
+                </div>
+                <div class="col-sm-12 col-md-12">
+                    <h3>Initiatives</h3>
+                    <p>Although weddings are a huge part of what we do, we are proud to have been a part of other events that hold just as much importance as your wedding day. We’ve had the honour of planning engagement parties, baby showers, birthday parties, corporate events and much more! So please, don’t hesitate to contact us with any inquiries regarding your next event.</p>
+                </div>
+              </section>
 
-<div id="preloader">
-    <div id="status">&nbsp;</div>
-</div><!-- /#preloader -->
+              <!-- /.templatemo-page5-text --> 
+              <section id="templatemo-page5-text" class="inactive">
+                <div class="col-sm-12 col-md-12">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                      <h2>Contact me below</h2>
+                    </div>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-12">
+                    <!-- Change the width and height values to suit you best -->
+                <div class="typeform-widget" data-url="https://daniel196.typeform.com/to/Wnh8HV" data-text="Hand In Hand W&amp;E" style="width:100%;height:500px;"></div>
+                <script>
+                  (function(){var qs,js,q,s,d=document,gi=d.getElementById,ce=d.createElement,gt=d.getElementsByTagName,id='typef_orm',b='https://s3-eu-west-1.amazonaws.com/share.typeform.com/';if(!gi.call(d,id)){js=ce.call(d,'script');js.id=id;js.src=b+'widget.js';q=gt.call(d,'script')[0];q.parentNode.insertBefore(js,q)}})()
+                </script>
+                <div style="font-family: Sans-Serif;font-size: 12px;color: #999;opacity: 0.5; padding-top: 5px;">Powered by <a href="http://www.typeform.com/?utm_campaign=typeform_Wnh8HV&amp;utm_source=website&amp;utm_medium=typeform&amp;utm_content=typeform-embedded&amp;utm_term=English" style="color: #999" target="_blank">Typeform</a></div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/jquery.backstretch.min.js"></script>
-<script src="js/jquery.flexslider.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/templatemo_script.js"></script>
-</body>
+              </section>
+            </div><!-- /.templatemo-content -->  
+          </div><!-- /.templatemo-content-wrapper --> 
+        </div><!-- /.row --> 
+
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footer">
+            <div class="footer-wrapper">
+              <p class="social-icons">
+                <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a href="https://google.com" target="_blank"><i class="fa fa-google-plus"></i></a>
+                <a href="https://youtube.com" target="_blank"><i class="fa fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa fa-instagram"></i></a>
+              </p>
+              <p id="tm-copyright">
+                Copyright &copy; 2015 Hand in Hand Weddings & Events
+      			  </p>
+            </div>                    
+          </div><!-- /.footer --> 
+        </div>               
+      </div> <!-- /.container -->
+    </div><!-- /#main-wrapper -->
+
+    <div id="preloader">
+      <div id="status">&nbsp;</div>
+    </div><!-- /#preloader -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/jquery.flexslider.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/templatemo_script.js"></script>
+  </body>
 </html>

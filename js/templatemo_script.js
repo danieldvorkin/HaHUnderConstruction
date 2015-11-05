@@ -28,6 +28,11 @@ jQuery(function($) {
                 $('#main-wrapper').delay(350).css({'overflow':'visible'});
             }
         });
+    
+        
+        document.querySelector('#calc').addEventListener('click', function () {
+          console.log(checked());
+        });
     });
     
     $(document).ready( function() {        
@@ -44,11 +49,7 @@ jQuery(function($) {
             location.reload();
         });   
 		
-		/*
-		var dt = window.atob('IC0gPGEgcmVsPSJub2ZvbGxvdyIgaHJlZj0iaHR0cDovL3d3dy50ZW1wbGF0ZW1vLmNvbS9wcmV2aWV3L3RlbXBsYXRlbW9fNDEyX2F1dGhlbnRpYyI+QXV0aGVudGljPC9hPiBieSA8YSByZWw9Im5vZm9sbG93IiBocmVmPSJodHRwOi8vd3d3LnRlbXBsYXRlbW8uY29tIiB0aXRsZT0iRnJlZSBXZWJzaXRlIFRlbXBsYXRlcyI+dGVtcGxhdGVtbzwvYT4='); 
-		var y = document.getElementById('tm-copyright');
-		y.innerHTML += dt;
-		*/
+		
 		
         // backstretch for background image
         var defaultImgSrc = $('img.main-img').attr('src');
@@ -118,3 +119,32 @@ function loadGoogleMap(){
     'callback=initialize';
     document.body.appendChild(script);
 }
+function checked(){
+  var inputElems = document.getElementsByTagName("input");
+  var count = 0;
+  for(var i = 0; i < inputElems.length; i++){
+    if(inputElems[i].type === "checkbox" && inputElems[i].checked === true){
+      count += Number(inputElems[i].value)
+    }
+  }
+  count = Number(count);
+  document.getElementById("demo").innerHTML = count;
+
+  if(count === 0){
+    document.getElementById("pkg-info").innerHTML = "No services have been selected";
+  }
+  if(count > 0 && count < 16){
+    document.getElementById("pkg-info").innerHTML = "The Saphire Package would work best for you!!";
+  }
+  if(count > 15 && count < 31){
+    document.getElementById("pkg-info").innerHTML = "The Ruby Package would be your best option!";
+  }
+  if(count > 30 && count < 46){
+   document.getElementById("pkg-info").innerHTML = "The Emerald Package is the one for you";
+  }
+  if(count > 45){
+    document.getElementById("pkg-info").innerHTML = "The Diamond Package, what more can be said!!!!";
+  }
+  return count;
+}
+
