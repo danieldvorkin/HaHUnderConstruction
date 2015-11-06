@@ -169,6 +169,9 @@ img {  vertical-align: middle; }
     height:600px;width:600px;
 }
 
+.page1 {
+    height:500px;width:700px!important;
+}
 #owl-demo .item{
   margin: 3px;
 }
@@ -234,6 +237,8 @@ img {  vertical-align: middle; }
 .flexslider { 
     border-radius: 0;
     margin-bottom: 20px;
+    width:70%;
+    margin-left:15%!important;
 }
 .flexslider li {
 	margin: 0;
