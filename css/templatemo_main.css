@@ -232,6 +232,15 @@ img {  vertical-align: middle; }
 	text-decoration: none;
 }
 
+.layout img{
+    height:250px;width:320px;
+    margin-bottom:2px;
+}
+
+.layout img:hover {
+    
+}
+
 /* 3. Home (FlexSlider) Styles
 -------------------------------------------- */
 .flexslider { 
