@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>Hand In Hand - Under Construction</title>
+  <link rel='shortcut icon' href='images/faviconLibrary/favicon_small.ico' type='image/x-icon'/ >
   <meta name="description" content="Hand in hand weddings and events company based in toronto ontario canada">
   <meta name="keywords" content="hand in hand weddings and events toronto ontario canada" />
   <meta name="viewport" content="width=device-width">   
@@ -545,6 +546,11 @@
       $('[data-toggle="tooltip"]').tooltip();
       $('#annasbday').carousel();
       $('#heatherdiago').carousel();
+      if($('.collapse in').attr('aria-expanded', 'true')){
+        $('.navbar-toggle').click(function(){
+          $(".navbar-collapse").collapse('hide');
+        });
+      }
     });
   </script>
 </body>
